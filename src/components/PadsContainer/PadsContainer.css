@@ -1,0 +1,14 @@
+
+.padsContainer {
+    margin: auto;
+    display: grid;
+    height: 500px;
+    width: 500px;
+    grid-template-columns: 33.33% 33.33% 33.33%;
+    grid-template-rows: 33.33% 33.33% 33.33%;
+    justify-items: center;
+    grid-template-areas:
+        "1 2 3"
+        "4 5 6"
+        "7 8 9";
+}
