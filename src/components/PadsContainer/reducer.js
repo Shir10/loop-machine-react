@@ -9,6 +9,8 @@ const PadsContainerReducer = (state = initialState.padsContainer, action) => {
             return { ...state, padsStatusArray: action.payload.padsStatusArray };
         case PadConstants.CHANGE_PAD_STATUS:
             return { ...state, padsStatusArray: action.payload.padsStatusArray };
+        case PadConstants.HANDLE_TIME_UPDATE:
+            return { ...state, padsStatusArray: action.payload.padsStatusArray };
         default:
             return state;
     }
