@@ -1,26 +1,84 @@
-
 .pad {
-    background-color: lavender;
-    border-radius: 20px;
-    grid-area: 1;
-    /*height: 30%;*/
-    /*width: 30%;*/
+    place-self: stretch stretch;
+    color: #FFFFFF;
+    background-color: #313131;
+    border-radius: 10px;
+    box-shadow: inset -6px -6px 12px rgba(0, 0, 0, 0.8), inset 6px 6px 12px rgba(255, 255, 255, 0.4);
+    padding: 5px;
+}
+
+.pad-title {
+    margin: 15% 0;
+}
+
+#pad-1 {
+     grid-area: area-1;
+}
+
+#pad-2 {
+    grid-area: area-2;
+}
+
+#pad-3 {
+    grid-area: area-3;
+}
+
+#pad-4 {
+    grid-area: area-4;
+}
+#pad-5 {
+    grid-area: area-5;
+}
+
+#pad-6 {
+    grid-area: area-6;
+}
+#pad-7 {
+    grid-area: area-7;
+}
+
+#pad-8 {
+    grid-area: area-8;
+}
+
+#pad-9 {
+    grid-area: area-9;
 }
 
 .pad-btn {
+    height: 30%;
+    width: 30%;
+    min-height: 30px;
+    min-width: 30px;
+    margin-bottom: 20%;
     border: none;
     color: white;
-    padding: 15px 32px;
     text-align: center;
+    align-items: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    border-radius: 50%;
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.8), -4px -4px 10px rgba(255, 255, 255, 0.4), inset -4px -4px 10px rgba(0, 0, 0, 0.4), inset 4px 4px 10px rgba(255, 255, 255, 0.4);
+    outline: none;
+    cursor: pointer;
 }
 
 .play-btn {
-    background-color: #4CAF50;
+    background-color: #79d70f;
 }
 
 .stop-btn {
     background-color: red;
 }
+
+.pad-icon-btn {
+    display: block;
+    margin: auto;
+}
+
+/*@media only screen and (max-width: 600px) {*/
+/*    .pad-btn {*/
+/*        height: 40px;*/
+/*        width: 40px;*/
+/*    }*/
+/*}*/

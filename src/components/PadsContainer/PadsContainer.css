@@ -1,14 +1,19 @@
-
 .padsContainer {
     margin: auto;
     display: grid;
-    height: 500px;
-    width: 500px;
-    grid-template-columns: 33.33% 33.33% 33.33%;
-    grid-template-rows: 33.33% 33.33% 33.33%;
+    height: 70vh;
+    width: 70vh;
     justify-items: center;
+    grid-gap: 10px;
     grid-template-areas:
-        "1 2 3"
-        "4 5 6"
-        "7 8 9";
+        "area-1 area-2 area-3"
+        "area-4 area-5 area-6"
+        "area-7 area-8 area-9";
+}
+
+@media only screen and (max-width: 600px) {
+    .padsContainer {
+        height: 80vw;
+        width: 80vw;
+    }
 }

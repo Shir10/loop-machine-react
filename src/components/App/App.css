@@ -1,5 +1,17 @@
 .app {
   text-align: center;
+  background-color: #838383;
+  min-height: 100vh;
+  color: white;
+  font-family: 'Signika', sans-serif;
+}
+
+h1 {
+  margin: 0;
+  padding: 50px;
+  color: #EEE;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.8), -2px -2px 4px rgba(255,255,255,0.4);
+  text-align: center;
 }
 
 

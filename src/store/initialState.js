@@ -7,6 +7,9 @@ const initialState = {
     },
     pad: {
 
+    },
+    recorder: {
+        isRecording: false
     }
 };
 
