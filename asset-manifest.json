@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/loop-machine-react/static/css/main.6498f688.chunk.css",
+    "main.js": "/loop-machine-react/static/js/main.15006de0.chunk.js",
+    "main.js.map": "/loop-machine-react/static/js/main.15006de0.chunk.js.map",
+    "runtime-main.js": "/loop-machine-react/static/js/runtime-main.8a3f2066.js",
+    "runtime-main.js.map": "/loop-machine-react/static/js/runtime-main.8a3f2066.js.map",
+    "static/js/2.b0888936.chunk.js": "/loop-machine-react/static/js/2.b0888936.chunk.js",
+    "static/js/2.b0888936.chunk.js.map": "/loop-machine-react/static/js/2.b0888936.chunk.js.map",
+    "static/js/3.ea1739b3.chunk.js": "/loop-machine-react/static/js/3.ea1739b3.chunk.js",
+    "static/js/3.ea1739b3.chunk.js.map": "/loop-machine-react/static/js/3.ea1739b3.chunk.js.map",
+    "index.html": "/loop-machine-react/index.html",
+    "static/css/main.6498f688.chunk.css.map": "/loop-machine-react/static/css/main.6498f688.chunk.css.map",
+    "static/js/2.b0888936.chunk.js.LICENSE.txt": "/loop-machine-react/static/js/2.b0888936.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.8a3f2066.js",
+    "static/js/2.b0888936.chunk.js",
+    "static/css/main.6498f688.chunk.css",
+    "static/js/main.15006de0.chunk.js"
+  ]
+}
